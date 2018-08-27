@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteEditBasket_Desktop]">
+  <test name="TC_REG_MUK_088(failed)">
+    <classes>
+      <class name="com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_071">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_071 -->
+      <class name="com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_088">
+        <methods>
+          <include name="tc_REG_MUK_088" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_088 -->
+      <class name="com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_087">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_087 -->
+    </classes>
+  </test> <!-- TC_REG_MUK_088(failed) -->
+</suite> <!-- Failed suite [SuiteEditBasket_Desktop] -->

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteCartPage_Desktop]">
+  <test name="TC_REG_MUK_078(failed)">
+    <classes>
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_101">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_101 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_112">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_112 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_105">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_105 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_080">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_080 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_099">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_099 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_069">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_069 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_096">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_096 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_092">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_092 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_068">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_068 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_102">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_102 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_082">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkTestRunnable"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_082 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_107">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_107 -->
+      <class name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="tc_REG_MUK_78"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078 -->
+    </classes>
+  </test> <!-- TC_REG_MUK_078(failed) -->
+</suite> <!-- Failed suite [SuiteCartPage_Desktop] -->

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuitePDP_Desktop]">
+  <test name="TC_REG_MUK_036(failed)">
+    <classes>
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="tc_REG_MUK_036" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085 -->
+    </classes>
+  </test> <!-- TC_REG_MUK_036(failed) -->
+  <test name="TC_REG_MUK_047(failed)">
+    <classes>
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="tc_REG_MUK_047" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036">
+        <methods>
+          <include name="init"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043 -->
+      <class name="com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085 -->
+    </classes>
+  </test> <!-- TC_REG_MUK_047(failed) -->
+</suite> <!-- Failed suite [SuitePDP_Desktop] -->

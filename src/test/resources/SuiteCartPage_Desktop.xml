@@ -1,0 +1,94 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteCartPage_Desktop">
+
+
+	<test name="TC_REG_MUK_068" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_068"></class>
+		</classes>
+	</test>
+
+	<test name="TC_REG_MUK_069" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_069"></class>
+		</classes>
+	</test>
+
+	<test name="TC_REG_MUK_080" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_080"></class>
+		</classes>
+	</test>
+
+	<test name="TC_REG_MUK_082" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_082"></class>
+		</classes>
+	</test>
+
+	<test name="TC_REG_MUK_092" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_092"></class>
+		</classes>
+	</test>
+
+	<test name="TC_REG_MUK_099" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_099"></class>
+		</classes>
+	</test>
+	
+	<test name="TC_REG_MUK_101" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_101"></class>
+		</classes>
+	</test>
+ 	
+	<test name="TC_REG_MUK_102" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_102"></class>
+		</classes>
+	</test>
+	
+	<test name="TC_REG_MUK_105" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_105"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_078" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078"></class>
+		</classes>
+	</test> 
+	<test name="TC_REG_MUK_096" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_096"></class>
+		</classes>
+	</test>
+	
+ <test name="TC_REG_MUK_107" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_107"></class>
+		</classes>
+	</test>
+	
+	<test name="TC_REG_MUK_112" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_112"></class>
+		</classes>
+	</test>  
+</suite>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteDeliveryOption_Desktop]">
+  <test name="TC_REG_MUK_109(failed)">
+    <classes>
+      <class name="com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_109">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="tc_REG_MUK_109" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_109 -->
+    </classes>
+  </test> <!-- TC_REG_MUK_109(failed) -->
+</suite> <!-- Failed suite [SuiteDeliveryOption_Desktop] -->

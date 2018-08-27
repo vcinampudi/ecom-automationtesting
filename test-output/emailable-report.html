@@ -1,0 +1,1280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">SuiteSuiteFinder_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_198</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">93.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteDeliveryCharges_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_248</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">138.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_250</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">142.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_251</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">131.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_252</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">136.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_253</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">136.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_254</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">138.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_255</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">137.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuitePLP_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_020</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">121.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_022</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">91.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_023</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">87.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_024</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">106.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_064</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">94.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_097</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">89.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteMyAccount_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_174</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">83.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_175</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">120.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_177</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">155.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteHomePage_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_016</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">63.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_019</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">63.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_018</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">70.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteHeaderFooter_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_012</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">62.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_013</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">66.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_108</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">140.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteCLP_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_063</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">69.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteEditBasket_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_071</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">144.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_087</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">131.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_088</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">146.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteDeliveryOption_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_073</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">96.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_109</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">166.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuitePDP_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_032</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">100.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_033</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">96.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_036</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">118.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_037</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">97.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_039</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">98.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_043</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">137.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_044</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">96.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_047</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">103.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_084</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">131.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_085</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">172.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">Mothercare</th></tr>
+<tr><th colspan="7">SuiteCartPage_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_068</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">147.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_069</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">165.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_080</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">128.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_082</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">129.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_092</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">145.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_099</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">150.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_101</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">152.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_102</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">148.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_105</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">155.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_078</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_096</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">124.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_107</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">134.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_112</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">153.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">SuiteCheckout_Desktop</th></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_134</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">183.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_089</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">186.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_131</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">195.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_113</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">175.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_133</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">207.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_135</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">194.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_242</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">276.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_136</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">256.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_140</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">213.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_147</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">300.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_243</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_141</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">317.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_149</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">219.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_151</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">209.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_152</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">276.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_143</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">258.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_161</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">216.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_162</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">207.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_148</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">275.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_139</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">231.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_144</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">242.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_146</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">221.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_153</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">214.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_UserRegistration</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">126.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_154</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">290.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_142</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">227.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_155</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">191.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_145</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">227.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_265</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">207.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">TC_REG_MUK_138</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">219.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">TC_REG_MUK_150</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">319.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">66</td><td class="numi">66</td><td class="numi_attn">2</td><td class="numi_attn">17</td><td class="numi">13,006.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">SuiteSuiteFinder_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_198 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteStoreFinder_Desktop.TC_REG_MUK_198</td><td><a href="#m1"><b>tc_REG_MUK_198</b>  </a></td><td class="numi">1</td><td>1533547875673</td><td class="numi">30934</td></tr>
+<tr><th colspan="4">SuiteDeliveryCharges_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_248 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_248</td><td><a href="#m2"><b>tc_REG_MUK_248</b>  </a></td><td class="numi">1</td><td>1533541855008</td><td class="numi">76243</td></tr>
+<tr><th colspan="4">TC_REG_MUK_250 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_250</td><td><a href="#m3"><b>tc_REG_MUK_250</b>  </a></td><td class="numi">1</td><td>1533541994727</td><td class="numi">78547</td></tr>
+<tr><th colspan="4">TC_REG_MUK_251 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_251</td><td><a href="#m4"><b>tc_REG_MUK_251</b>  </a></td><td class="numi">1</td><td>1533542136222</td><td class="numi">68001</td></tr>
+<tr><th colspan="4">TC_REG_MUK_252 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_252</td><td><a href="#m5"><b>tc_REG_MUK_252</b>  </a></td><td class="numi">1</td><td>1533542267129</td><td class="numi">74015</td></tr>
+<tr><th colspan="4">TC_REG_MUK_253 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_253</td><td><a href="#m6"><b>tc_REG_MUK_253</b>  </a></td><td class="numi">1</td><td>1533542404050</td><td class="numi">73335</td></tr>
+<tr><th colspan="4">TC_REG_MUK_254 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_254</td><td><a href="#m7"><b>tc_REG_MUK_254</b>  </a></td><td class="numi">1</td><td>1533542540249</td><td class="numi">75195</td></tr>
+<tr><th colspan="4">TC_REG_MUK_255 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_255</td><td><a href="#m8"><b>tc_REG_MUK_255</b>  </a></td><td class="numi">1</td><td>1533542678537</td><td class="numi">74802</td></tr>
+<tr><th colspan="4">SuitePLP_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_020 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_020</td><td><a href="#m9"><b>tc_REG_MUK_020</b>  </a></td><td class="numi">1</td><td>1533546749719</td><td class="numi">58282</td></tr>
+<tr><th colspan="4">TC_REG_MUK_022 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_022</td><td><a href="#m10"><b>tc_REG_MUK_022</b>  </a></td><td class="numi">1</td><td>1533546870743</td><td class="numi">28662</td></tr>
+<tr><th colspan="4">TC_REG_MUK_023 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_023</td><td><a href="#m11"><b>tc_REG_MUK_023</b>  </a></td><td class="numi">1</td><td>1533546962771</td><td class="numi">23696</td></tr>
+<tr><th colspan="4">TC_REG_MUK_024 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_024</td><td><a href="#m12"><b>tc_REG_MUK_024</b>  </a></td><td class="numi">1</td><td>1533547049484</td><td class="numi">43757</td></tr>
+<tr><th colspan="4">TC_REG_MUK_064 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_064</td><td><a href="#m13"><b>tc_REG_MUK_064</b>  </a></td><td class="numi">1</td><td>1533547156051</td><td class="numi">32116</td></tr>
+<tr><th colspan="4">TC_REG_MUK_097 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_097</td><td><a href="#m14"><b>tc_REG_MUK_097</b>  </a></td><td class="numi">1</td><td>1533547250838</td><td class="numi">26773</td></tr>
+<tr><th colspan="4">SuiteMyAccount_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_174 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_174</td><td><a href="#m15"><b>tc_REG_MUK_174</b>  </a></td><td class="numi">1</td><td>1533545236749</td><td class="numi">20264</td></tr>
+<tr><th colspan="4">TC_REG_MUK_175 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_175</td><td><a href="#m16"><b>tc_REG_MUK_175</b>  </a></td><td class="numi">1</td><td>1533545320282</td><td class="numi">57338</td></tr>
+<tr><th colspan="4">TC_REG_MUK_177 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177</td><td><a href="#m17"><b>tc_REG_MUK_180</b>  </a></td><td class="numi">1</td><td>1533545483047</td><td class="numi">50289</td></tr>
+<tr><th colspan="4">TC_REG_MUK_177 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177</td><td><a href="#m18"><b>tc_REG_MUK_177</b>  </a></td><td class="numi">1</td><td>1533545440640</td><td class="numi">28016</td></tr><tr class="passedodd"><td><a href="#m19"><b>tc_REG_MUK_178</b>  </a></td><td class="numi">1</td><td>1533545468704</td><td class="numi">14265</td></tr>
+<tr><th colspan="4">SuiteHomePage_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_016 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_016</td><td><a href="#m20"><b>tc_REG_MUK_016</b>  </a></td><td class="numi">1</td><td>1533547679085</td><td class="numi">285</td></tr>
+<tr><th colspan="4">TC_REG_MUK_019 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_019</td><td><a href="#m21"><b>tc_REG_MUK_019</b>  </a></td><td class="numi">1</td><td>1533547742406</td><td class="numi">144</td></tr>
+<tr><th colspan="4">TC_REG_MUK_018 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_018</td><td><a href="#m22"><b>tc_REG_MUK_018</b>  </a></td><td class="numi">1</td><td>1533547805943</td><td class="numi">6785</td></tr>
+<tr><th colspan="4">SuiteHeaderFooter_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_012 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_012</td><td><a href="#m23"><b>tc_REG_MUK_012</b>  </a></td><td class="numi">1</td><td>1533547408984</td><td class="numi">314</td></tr>
+<tr><th colspan="4">TC_REG_MUK_013 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_013</td><td><a href="#m24"><b>tc_REG_MUK_013</b>  </a></td><td class="numi">1</td><td>1533547472542</td><td class="numi">3455</td></tr>
+<tr><th colspan="4">TC_REG_MUK_108 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_108</td><td><a href="#m25"><b>tc_REG_MUK_108</b>  </a></td><td class="numi">1</td><td>1533547538800</td><td class="numi">77288</td></tr>
+<tr><th colspan="4">SuiteCLP_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_063 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCLP_Desktop.TC_REG_MUK_063</td><td><a href="#m26"><b>tc_REG_MUK_63</b>  </a></td><td class="numi">1</td><td>1533547340817</td><td class="numi">6053</td></tr>
+<tr><th colspan="4">SuiteEditBasket_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_071 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_071</td><td><a href="#m27"><b>tc_REG_MUK_071</b>  </a></td><td class="numi">1</td><td>1533544815589</td><td class="numi">80417</td></tr>
+<tr><th colspan="4">TC_REG_MUK_087 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_087</td><td><a href="#m28"><b>tc_REG_MUK_087</b>  </a></td><td class="numi">1</td><td>1533544958560</td><td class="numi">68789</td></tr>
+<tr><th colspan="4">TC_REG_MUK_088 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_088</td><td><a href="#m29"><b>tc_REG_MUK_088</b>  </a></td><td class="numi">1</td><td>1533545090278</td><td class="numi">83222</td></tr>
+<tr><th colspan="4">SuiteDeliveryOption_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_073 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_073</td><td><a href="#m30"><b>tc_REG_MUK_073</b>  </a></td><td class="numi">1</td><td>1533544551775</td><td class="numi">33367</td></tr>
+<tr><th colspan="4">TC_REG_MUK_109 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_109</td><td><a href="#m31"><b>tc_REG_MUK_109</b>  </a></td><td class="numi">1</td><td>1533544648195</td><td class="numi">103708</td></tr>
+<tr><th colspan="4">SuitePDP_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_032 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032</td><td><a href="#m32"><b>tc_REG_MUK_032</b>  </a></td><td class="numi">1</td><td>1533545596800</td><td class="numi">37116</td></tr>
+<tr><th colspan="4">TC_REG_MUK_033 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033</td><td><a href="#m33"><b>tc_REG_MUK_033</b>  </a></td><td class="numi">1</td><td>1533545696363</td><td class="numi">34102</td></tr>
+<tr><th colspan="4">TC_REG_MUK_036 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036</td><td><a href="#m34"><b>tc_REG_MUK_036</b>  </a></td><td class="numi">1</td><td>1533545792826</td><td class="numi">56363</td></tr>
+<tr><th colspan="4">TC_REG_MUK_037 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037</td><td><a href="#m35"><b>tc_REG_MUK_037</b>  </a></td><td class="numi">1</td><td>1533545912112</td><td class="numi">34619</td></tr>
+<tr><th colspan="4">TC_REG_MUK_039 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039</td><td><a href="#m36"><b>tc_REG_MUK_039</b>  </a></td><td class="numi">1</td><td>1533546009616</td><td class="numi">35546</td></tr>
+<tr><th colspan="4">TC_REG_MUK_043 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043</td><td><a href="#m37"><b>tc_REG_MUK_043</b>  </a></td><td class="numi">1</td><td>1533546108211</td><td class="numi">74841</td></tr>
+<tr><th colspan="4">TC_REG_MUK_044 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044</td><td><a href="#m38"><b>tc_REG_MUK_044</b>  </a></td><td class="numi">1</td><td>1533546246113</td><td class="numi">33632</td></tr>
+<tr><th colspan="4">TC_REG_MUK_047 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047</td><td><a href="#m39"><b>tc_REG_MUK_047</b>  </a></td><td class="numi">1</td><td>1533546342997</td><td class="numi">40393</td></tr>
+<tr><th colspan="4">TC_REG_MUK_084 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084</td><td><a href="#m40"><b>tc_REG_MUK_084</b>  </a></td><td class="numi">1</td><td>1533546446434</td><td class="numi">68214</td></tr>
+<tr><th colspan="4">TC_REG_MUK_085 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085</td><td><a href="#m41"><b>tc_REG_MUK_085</b>  </a></td><td class="numi">1</td><td>1533546577839</td><td class="numi">108863</td></tr>
+<tr><th colspan="4">Mothercare</th></tr>
+<tr><th colspan="4">SuiteCartPage_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_068 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_068</td><td><a href="#m42"><b>tc_REG_MUK_68</b>  </a></td><td class="numi">1</td><td>1533542816743</td><td class="numi">84477</td></tr>
+<tr><th colspan="4">TC_REG_MUK_069 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_069</td><td><a href="#m43"><b>tc_REG_MUK_68</b>  </a></td><td class="numi">1</td><td>1533542964073</td><td class="numi">102241</td></tr>
+<tr><th colspan="4">TC_REG_MUK_080 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_080</td><td><a href="#m44"><b>tc_REG_MUK_80</b>  </a></td><td class="numi">1</td><td>1533543129440</td><td class="numi">65460</td></tr>
+<tr><th colspan="4">TC_REG_MUK_082 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_082</td><td><a href="#m45"><b>tc_REG_MUK_82</b>  </a></td><td class="numi">1</td><td>1533543257514</td><td class="numi">66839</td></tr>
+<tr><th colspan="4">TC_REG_MUK_092 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_092</td><td><a href="#m46"><b>tc_REG_MUK_92</b>  </a></td><td class="numi">1</td><td>1533543387059</td><td class="numi">83150</td></tr>
+<tr><th colspan="4">TC_REG_MUK_099 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_099</td><td><a href="#m47"><b>tc_REG_MUK_99</b>  </a></td><td class="numi">1</td><td>1533543533481</td><td class="numi">87500</td></tr>
+<tr><th colspan="4">TC_REG_MUK_101 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_101</td><td><a href="#m48"><b>tc_REG_MUK_102</b>  </a></td><td class="numi">1</td><td>1533543683945</td><td class="numi">88996</td></tr>
+<tr><th colspan="4">TC_REG_MUK_102 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_102</td><td><a href="#m49"><b>tc_REG_MUK_102</b>  </a></td><td class="numi">1</td><td>1533543835620</td><td class="numi">86161</td></tr>
+<tr><th colspan="4">TC_REG_MUK_105 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_105</td><td><a href="#m50"><b>tc_REG_MUK_105</b>  </a></td><td class="numi">1</td><td>1533543984802</td><td class="numi">92344</td></tr>
+<tr><th colspan="4">TC_REG_MUK_078 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078</td><td><a href="#m51"><b>checkTestRunnable</b>  </a></td><td class="numi">1</td><td>1533544081000</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m52"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1533544081017</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m53"><b>init</b>  </a></td><td class="numi">1</td><td>1533544081017</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m54"><b>quit</b>  </a></td><td class="numi">1</td><td>1533544081017</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TC_REG_MUK_078 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078</td><td><a href="#m55"><b>tc_REG_MUK_78</b>  </a></td><td class="numi">1</td><td>1533544081017</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TC_REG_MUK_096 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_096</td><td><a href="#m56"><b>tc_REG_MUK_96</b>  </a></td><td class="numi">1</td><td>1533544141031</td><td class="numi">60523</td></tr>
+<tr><th colspan="4">TC_REG_MUK_107 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_107</td><td><a href="#m57"><b>tc_REG_MUK_107</b>  </a></td><td class="numi">1</td><td>1533544264449</td><td class="numi">71657</td></tr>
+<tr><th colspan="4">TC_REG_MUK_112 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_112</td><td><a href="#m58"><b>tc_REG_MUK_112</b>  </a></td><td class="numi">1</td><td>1533544399220</td><td class="numi">89767</td></tr>
+<tr><th colspan="4">SuiteCheckout_Desktop</th></tr>
+<tr><th colspan="4">TC_REG_MUK_134 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_134</td><td><a href="#m59"><b>tc_REG_MUK_134</b>  </a></td><td class="numi">1</td><td>1533534969396</td><td class="numi">113854</td></tr>
+<tr><th colspan="4">TC_REG_MUK_089 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_089</td><td><a href="#m60"><b>tc_REG_MUK_89</b>  </a></td><td class="numi">1</td><td>1533535145706</td><td class="numi">124578</td></tr>
+<tr><th colspan="4">TC_REG_MUK_131 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_131</td><td><a href="#m61"><b>tc_REG_MUK_131</b>  </a></td><td class="numi">1</td><td>1533535333078</td><td class="numi">133091</td></tr>
+<tr><th colspan="4">TC_REG_MUK_113 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_113</td><td><a href="#m62"><b>tc_REG_MUK_113</b>  </a></td><td class="numi">1</td><td>1533535529000</td><td class="numi">112460</td></tr>
+<tr><th colspan="4">TC_REG_MUK_133 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_133</td><td><a href="#m63"><b>tc_REG_MUK_133</b>  </a></td><td class="numi">1</td><td>1533535704460</td><td class="numi">144629</td></tr>
+<tr><th colspan="4">TC_REG_MUK_135 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_135</td><td><a href="#m64"><b>tc_REG_MUK_135</b>  </a></td><td class="numi">1</td><td>1533535912058</td><td class="numi">131755</td></tr>
+<tr><th colspan="4">TC_REG_MUK_242 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_242</td><td><a href="#m65"><b>tC_REG_MUK_242</b>  </a></td><td class="numi">1</td><td>1533536106119</td><td class="numi">214531</td></tr>
+<tr><th colspan="4">TC_REG_MUK_136 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_136</td><td><a href="#m66"><b>tc_REG_MUK_136</b>  </a></td><td class="numi">1</td><td>1533536383690</td><td class="numi">193511</td></tr>
+<tr><th colspan="4">TC_REG_MUK_140 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_140</td><td><a href="#m67"><b>tc_REG_MUK_140</b>  </a></td><td class="numi">1</td><td>1533536639711</td><td class="numi">151297</td></tr>
+<tr><th colspan="4">TC_REG_MUK_147 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_147</td><td><a href="#m68"><b>tc_REG_MUK_147</b>  </a></td><td class="numi">1</td><td>1533536853926</td><td class="numi">237371</td></tr>
+<tr><th colspan="4">TC_REG_MUK_243 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="4">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243</td><td><a href="#m69"><b>checkTestRunnable</b>  </a></td><td class="numi">1</td><td>1533537095169</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m70"><b>quit</b>  </a></td><td class="numi">1</td><td>1533537095185</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m71"><b>init</b>  </a></td><td class="numi">1</td><td>1533537095185</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m72"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1533537095185</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TC_REG_MUK_243 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243</td><td><a href="#m73"><b>tC_REG_MUK_243</b>  </a></td><td class="numi">1</td><td>1533537095185</td><td class="numi">0</td></tr>
+<tr><th colspan="4">TC_REG_MUK_141 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_141</td><td><a href="#m74"><b>tc_REG_MUK_141</b>  </a></td><td class="numi">1</td><td>1533537154249</td><td class="numi">254566</td></tr>
+<tr><th colspan="4">TC_REG_MUK_149 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_149</td><td><a href="#m75"><b>tc_REG_MUK_149</b>  </a></td><td class="numi">1</td><td>1533537472207</td><td class="numi">155973</td></tr>
+<tr><th colspan="4">TC_REG_MUK_151 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_151</td><td><a href="#m76"><b>tc_REG_MUK_151</b>  </a></td><td class="numi">1</td><td>1533537690987</td><td class="numi">146582</td></tr>
+<tr><th colspan="4">TC_REG_MUK_152 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_152</td><td><a href="#m77"><b>tc_REG_MUK_152</b>  </a></td><td class="numi">1</td><td>1533537900585</td><td class="numi">213335</td></tr>
+<tr><th colspan="4">TC_REG_MUK_143 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_143</td><td><a href="#m78"><b>tc_REG_MUK_143</b>  </a></td><td class="numi">1</td><td>1533538177246</td><td class="numi">195498</td></tr>
+<tr><th colspan="4">TC_REG_MUK_161 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_161</td><td><a href="#m79"><b>tc_REG_MUK_161</b>  </a></td><td class="numi">1</td><td>1533538435726</td><td class="numi">153798</td></tr>
+<tr><th colspan="4">TC_REG_MUK_162 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_162</td><td><a href="#m80"><b>tc_REG_MUK_162</b>  </a></td><td class="numi">1</td><td>1533538652694</td><td class="numi">144825</td></tr>
+<tr><th colspan="4">TC_REG_MUK_148 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_148</td><td><a href="#m81"><b>tc_REG_MUK_148</b>  </a></td><td class="numi">1</td><td>1533538860450</td><td class="numi">212555</td></tr>
+<tr><th colspan="4">TC_REG_MUK_139 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_139</td><td><a href="#m82"><b>tc_REG_MUK_139</b>  </a></td><td class="numi">1</td><td>1533539135889</td><td class="numi">168413</td></tr>
+<tr><th colspan="4">TC_REG_MUK_144 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_144</td><td><a href="#m83"><b>tc_REG_MUK_144</b>  </a></td><td class="numi">1</td><td>1533539368298</td><td class="numi">178253</td></tr>
+<tr><th colspan="4">TC_REG_MUK_146 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_146</td><td><a href="#m84"><b>tc_REG_MUK_146</b>  </a></td><td class="numi">1</td><td>1533539609319</td><td class="numi">158801</td></tr>
+<tr><th colspan="4">TC_REG_MUK_153 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_153</td><td><a href="#m85"><b>tc_REG_MUK_153</b>  </a></td><td class="numi">1</td><td>1533539831259</td><td class="numi">151366</td></tr>
+<tr><th colspan="4">TC_UserRegistration &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_UserRegistration</td><td><a href="#m86"><b>tc_UserRegistration</b>  </a></td><td class="numi">1</td><td>1533540045593</td><td class="numi">63783</td></tr>
+<tr><th colspan="4">TC_REG_MUK_154 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_154</td><td><a href="#m87"><b>tc_REG_MUK_154</b>  </a></td><td class="numi">1</td><td>1533540172019</td><td class="numi">228245</td></tr>
+<tr><th colspan="4">TC_REG_MUK_142 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_142</td><td><a href="#m88"><b>tc_REG_MUK_142</b>  </a></td><td class="numi">1</td><td>1533540463354</td><td class="numi">164731</td></tr>
+<tr><th colspan="4">TC_REG_MUK_155 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_155</td><td><a href="#m89"><b>tc_REG_MUK_155</b>  </a></td><td class="numi">1</td><td>1533540690987</td><td class="numi">128077</td></tr>
+<tr><th colspan="4">TC_REG_MUK_145 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_145</td><td><a href="#m90"><b>tc_REG_MUK_145</b>  </a></td><td class="numi">1</td><td>1533540882072</td><td class="numi">163977</td></tr>
+<tr><th colspan="4">TC_REG_MUK_265 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_265</td><td><a href="#m91"><b>tC_REG_MUK_265</b>  </a></td><td class="numi">1</td><td>1533541109215</td><td class="numi">144541</td></tr>
+<tr><th colspan="4">TC_REG_MUK_138 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_138</td><td><a href="#m92"><b>tc_REG_MUK_145</b>  </a></td><td class="numi">1</td><td>1533541317026</td><td class="numi">156126</td></tr>
+<tr><th colspan="4">TC_REG_MUK_150 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_150</td><td><a href="#m93"><b>tc_REG_MUK_143</b>  </a></td><td class="numi">1</td><td>1533541535684</td><td class="numi">256625</td></tr>
+</table>
+<h1>TC_REG_MUK_198</h1>
+<h2 id="m1">com.selenium.mothercare.testcases.SuiteStoreFinder_Desktop.TC_REG_MUK_198:tc_REG_MUK_198</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y, Store=TW3}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;dwfrm_storelocator_searchquery&apos;]&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir3364_14343}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8783c337fd028c49e5e24c85ad6b324e
+*** Element info: {Using=xpath, value=//input[@id=&apos;dwfrm_storelocator_searchquery&apos;]}</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.getElement(TestBase.java:439)
+<br/>at com.selenium.core.base.TestBase.type(TestBase.java:283)
+<br/>at com.selenium.mothercare.testcases.SuiteStoreFinder_Desktop.TC_REG_MUK_198.tc_REG_MUK_198(TC_REG_MUK_198.java:59)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_248</h1>
+<h2 id="m2">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_248:tc_REG_MUK_248</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_250</h1>
+<h2 id="m3">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_250:tc_REG_MUK_250</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_251</h1>
+<h2 id="m4">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_251:tc_REG_MUK_251</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard2@mailinator.com, Password=Test_1234, Product=680091, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_252</h1>
+<h2 id="m5">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_252:tc_REG_MUK_252</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard2@mailinator.com, Password=Test_1234, Product=680091, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_253</h1>
+<h2 id="m6">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_253:tc_REG_MUK_253</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_254</h1>
+<h2 id="m7">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_254:tc_REG_MUK_254</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_255</h1>
+<h2 id="m8">com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_255:tc_REG_MUK_255</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_020</h1>
+<h2 id="m9">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_020:tc_REG_MUK_020</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_022</h1>
+<h2 id="m10">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_022:tc_REG_MUK_022</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_023</h1>
+<h2 id="m11">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_023:tc_REG_MUK_023</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_024</h1>
+<h2 id="m12">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_024:tc_REG_MUK_024</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_064</h1>
+<h2 id="m13">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_064:tc_REG_MUK_064</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_097</h1>
+<h2 id="m14">com.selenium.mothercare.testcases.SuitePLP_Desktop.TC_REG_MUK_097:tc_REG_MUK_097</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_174</h1>
+<h2 id="m15">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_174:tc_REG_MUK_174</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Password=Test_1234, Runmode=Y, UserName=savedcard@mailinator.com}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_175</h1>
+<h2 id="m16">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_175:tc_REG_MUK_175</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Password=Abc1234, NewEmail=test06041807@test.com, Runmode=Y, UserName=test06041806@test.com}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Index: 0, Size: 0</p>
+java.util.ArrayList.rangeCheck(ArrayList.java:653)
+<br/>at java.util.ArrayList.get(ArrayList.java:429)
+<br/>at com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_175.tc_REG_MUK_175(TC_REG_MUK_175.java:54)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_177</h1>
+<h2 id="m17">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177:tc_REG_MUK_180</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Password=Test_1234, Runmode=Y, UserName=savedcard@mailinator.com}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;primary&apos;]/div[1]/div[3]/div[2]/ul/li[1]/div/div[1]&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir7436_11818}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 203ea6b417b1f6bb4ee797c746a5c48c
+*** Element info: {Using=xpath, value=//*[@id=&apos;primary&apos;]/div[1]/div[3]/div[2]/ul/li[1]/div/div[1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+<br/>at com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177.tc_REG_MUK_180(TC_REG_MUK_177.java:146)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177:tc_REG_MUK_177</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Password=Test_1234, Runmode=Y, UserName=savedcard@mailinator.com}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.selenium.mothercare.testcases.SuiteMyAccount_Desktop.TC_REG_MUK_177:tc_REG_MUK_178</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Password=Test_1234, Runmode=Y, UserName=savedcard@mailinator.com}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_016</h1>
+<h2 id="m20">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_016:tc_REG_MUK_016</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_019</h1>
+<h2 id="m21">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_019:tc_REG_MUK_019</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_018</h1>
+<h2 id="m22">com.selenium.mothercare.testcases.SuiteHomePage_Desktop.TC_REG_MUK_018:tc_REG_MUK_018</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y, Email=test@test.com}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_012</h1>
+<h2 id="m23">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_012:tc_REG_MUK_012</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_013</h1>
+<h2 id="m24">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_013:tc_REG_MUK_013</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_108</h1>
+<h2 id="m25">com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_108:tc_REG_MUK_108</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=222798, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_063</h1>
+<h2 id="m26">com.selenium.mothercare.testcases.SuiteCLP_Desktop.TC_REG_MUK_063:tc_REG_MUK_63</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_071</h1>
+<h2 id="m27">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_071:tc_REG_MUK_071</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=981365, Runmode=Y, Quantity=2}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_087</h1>
+<h2 id="m28">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_087:tc_REG_MUK_087</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Product=981365, Runmode=Y, Quantity=2}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_088</h1>
+<h2 id="m29">com.selenium.mothercare.testcases.SuiteEditBasket_Desktop.TC_REG_MUK_088:tc_REG_MUK_088</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant.rathod@mothercare.com, Password=oct@2017, Runmode=Y, ColorVariantProduct=D3109}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_073</h1>
+<h2 id="m30">com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_073:tc_REG_MUK_073</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y, FurnitureProduct=680091}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_109</h1>
+<h2 id="m31">com.selenium.mothercare.testcases.SuiteDeliveryOption_Desktop.TC_REG_MUK_109:tc_REG_MUK_109</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=GA579, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_032</h1>
+<h2 id="m32">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_032:tc_REG_MUK_032</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=D3109, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_033</h1>
+<h2 id="m33">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_033:tc_REG_MUK_033</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product= A0185, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_036</h1>
+<h2 id="m34">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036:tc_REG_MUK_036</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=D3109, Runmode=Y}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Delivery Options are not getting displayed based on selected variant</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_036.tc_REG_MUK_036(TC_REG_MUK_036.java:109)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_037</h1>
+<h2 id="m35">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_037:tc_REG_MUK_037</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_039</h1>
+<h2 id="m36">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_039:tc_REG_MUK_039</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=GC874, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_043</h1>
+<h2 id="m37">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_043:tc_REG_MUK_043</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=530850, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_044</h1>
+<h2 id="m38">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_044:tc_REG_MUK_044</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=D5966, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_047</h1>
+<h2 id="m39">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047:tc_REG_MUK_047</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=207748, Runmode=Y}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such frame: element is not a frame
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir9168_22275}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 993a3be49553cdb8a07b62358a8da002</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:917)
+<br/>at com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_047.tc_REG_MUK_047(TC_REG_MUK_047.java:76)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_084</h1>
+<h2 id="m40">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_084:tc_REG_MUK_084</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=247101, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_085</h1>
+<h2 id="m41">com.selenium.mothercare.testcases.SuitePDP_Desktop.TC_REG_MUK_085:tc_REG_MUK_085</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=772348, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_068</h1>
+<h2 id="m42">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_068:tc_REG_MUK_68</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=766418, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_069</h1>
+<h2 id="m43">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_069:tc_REG_MUK_68</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_080</h1>
+<h2 id="m44">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_080:tc_REG_MUK_80</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_082</h1>
+<h2 id="m45">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_082:tc_REG_MUK_82</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_092</h1>
+<h2 id="m46">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_092:tc_REG_MUK_92</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_099</h1>
+<h2 id="m47">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_099:tc_REG_MUK_99</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y, ProductHolderName=Test}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_101</h1>
+<h2 id="m48">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_101:tc_REG_MUK_102</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_102</h1>
+<h2 id="m49">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_102:tc_REG_MUK_102</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_105</h1>
+<h2 id="m50">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_105:tc_REG_MUK_105</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_078</h1>
+<h2 id="m51">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078:init</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078:quit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078:checkTestRunnable</h2>
+<div style="padding-left:3em">
+<p>Skipping the test case as Runmode is set to NO</p>
+com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078.checkTestRunnable(TC_REG_MUK_078.java:69)
+<br/>24 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_078:tc_REG_MUK_78</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=140096, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_096</h1>
+<h2 id="m56">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_096:tc_REG_MUK_96</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=140096, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_107</h1>
+<h2 id="m57">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_107:tc_REG_MUK_107</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=vikrant09051801@gmail.com, Password=test1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_112</h1>
+<h2 id="m58">com.selenium.mothercare.testcases.SuiteCartPage_Desktop.TC_REG_MUK_112:tc_REG_MUK_112</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=140096, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_134</h1>
+<h2 id="m59">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_134:tc_REG_MUK_134</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{CardType=Saved, UserType=Registered, Username=savedcard@mailinator.com, Runmode=Y, DeliveryMethod=Standard, DeliveryAdr=New, Product=143009, Password=Test_1234, PayType=Credit, DeliveryOption=CnC}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Not able to click on element - first_creditCard_xpath OR element not visible currently. - element not visible
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir8488_5153}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 54239a6e7827246af43cb17ac0cb7e38</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.click(TestBase.java:253)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_134.tc_REG_MUK_134(TC_REG_MUK_134.java:107)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_089</h1>
+<h2 id="m60">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_089:tc_REG_MUK_89</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard1@mailinator.com, Password=Test_1234, Runmode=Y, FurnitureProduct=680091, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_131</h1>
+<h2 id="m61">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_131:tc_REG_MUK_131</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_113</h1>
+<h2 id="m62">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_113:tc_REG_MUK_113</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{AddressLine1=Address line 1, Town=London, AddressNickname=UK address, Username=savedcard@mailinator.com, Postcode=WD17 2SD, Runmode=Y, Product=511423, Password=Test_1234, AddressLine2=Address line 2}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_133</h1>
+<h2 id="m63">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_133:tc_REG_MUK_133</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, EmailAdd=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Not able to click on element - savedCard_card_xpath OR element not visible currently. - element not visible
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir7172_28364}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 17226fc2eab713776ec8423f07f644db</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.click(TestBase.java:253)
+<br/>at com.selenium.core.base.TestBase.payWithCreditCard(TestBase.java:2079)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_133.tc_REG_MUK_133(TC_REG_MUK_133.java:72)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_135</h1>
+<h2 id="m64">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_135:tc_REG_MUK_135</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, EmailAdd=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Password=Test_1234, Product=511423, Runmode=Y}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log In&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir612_7944}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 84a5df27d9ec14fc9398279fd1e16f8a
+*** Element info: {Using=link text, value=Log In}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_135.tc_REG_MUK_135(TC_REG_MUK_135.java:75)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_242</h1>
+<h2 id="m65">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_242:tC_REG_MUK_242</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, EmailAdd=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_136</h1>
+<h2 id="m66">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_136:tc_REG_MUK_136</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, GiftCard=6331134198416001620}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;t-text-center js-wrapper&apos;]/button[@id=&apos;creditcard-select-go&apos;]&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir2948_21960}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 28ab0fa39c4063370ade11154af81aa8
+*** Element info: {Using=xpath, value=//div[@class=&apos;t-text-center js-wrapper&apos;]/button[@id=&apos;creditcard-select-go&apos;]}</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.getElement(TestBase.java:439)
+<br/>at com.selenium.core.base.TestBase.click(TestBase.java:248)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_136.tc_REG_MUK_136(TC_REG_MUK_136.java:133)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_140</h1>
+<h2 id="m67">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_140:tc_REG_MUK_140</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_147</h1>
+<h2 id="m68">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_147:tc_REG_MUK_147</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_243</h1>
+<h2 id="m69">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243:quit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243:checkTestRunnable</h2>
+<div style="padding-left:3em">
+<p>Skipping the test case as Runmode is set to NO</p>
+com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243.checkTestRunnable(TC_REG_MUK_243.java:144)
+<br/>24 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243:init</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_243:tC_REG_MUK_243</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, EmailAdd=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_141</h1>
+<h2 id="m74">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_141:tc_REG_MUK_141</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_149</h1>
+<h2 id="m75">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_149:tc_REG_MUK_149</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_151</h1>
+<h2 id="m76">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_151:tc_REG_MUK_151</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, Quantity=1, InternationalProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_152</h1>
+<h2 id="m77">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_152:tc_REG_MUK_152</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Runmode=Y, InternationalProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_143</h1>
+<h2 id="m78">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_143:tc_REG_MUK_143</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, GiftCard=6331134154717823253, StandardProduct=511423}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to redeem gift card</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_143.tc_REG_MUK_143(TC_REG_MUK_143.java:170)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_161</h1>
+<h2 id="m79">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_161:tc_REG_MUK_161</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Not able to click on element - savedCard_card_xpath OR element not visible currently. - element not visible
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir5060_13486}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c0c865e42cfff28dc6a779c8e84b5f98</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.click(TestBase.java:253)
+<br/>at com.selenium.core.base.TestBase.payWithCreditCard(TestBase.java:2079)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_161.tc_REG_MUK_161(TC_REG_MUK_161.java:81)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_162</h1>
+<h2 id="m80">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_162:tc_REG_MUK_162</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_148</h1>
+<h2 id="m81">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_148:tc_REG_MUK_148</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_139</h1>
+<h2 id="m82">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_139:tc_REG_MUK_139</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, GiftCard2=6331134142903733659, GiftCard1=6331134115568938367, Password=Test_1234, Runmode=Y, Quantity=1, InternationalProduct=511423}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to redeem gift card</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_139.tc_REG_MUK_139(TC_REG_MUK_139.java:149)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_144</h1>
+<h2 id="m83">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_144:tc_REG_MUK_144</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, furnitureProduct=680091}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to redeem gift card</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_144.tc_REG_MUK_144(TC_REG_MUK_144.java:144)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_146</h1>
+<h2 id="m84">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_146:tc_REG_MUK_146</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, GiftCard2=6331134163897757702, GiftCard1=6331134129499269297, Password=Test_1234, Runmode=Y, Quantity=1, InternationalProduct=511423}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to redeem gift card</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_146.tc_REG_MUK_146(TC_REG_MUK_146.java:153)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_153</h1>
+<h2 id="m85">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_153:tc_REG_MUK_153</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y, Quantity=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_UserRegistration</h1>
+<h2 id="m86">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_UserRegistration:tc_UserRegistration</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=existingDelAdr12@mailinator.com, Password=Test_1234, Title=Mr, Runmode=Y}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[.=&apos;thank you for registering with mothercare&apos;]&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir1364_19670}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2da21782d7691f9f1075aff2ec793e3b
+*** Element info: {Using=xpath, value=//h1[.=&apos;thank you for registering with mothercare&apos;]}</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.core.base.TestBase.getElement(TestBase.java:439)
+<br/>at com.selenium.core.base.TestBase.getText(TestBase.java:557)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_UserRegistration.tc_UserRegistration(TC_UserRegistration.java:65)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_154</h1>
+<h2 id="m87">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_154:tc_REG_MUK_154</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_142</h1>
+<h2 id="m88">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_142:tc_REG_MUK_142</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{PayPalUsername=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Product=511423, Runmode=Y}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log In&quot;}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21.97 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NTPC02201&apos;, ip: &apos;192.168.160.117&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\VIKRAN~1.RAT\AppData\Local\Temp\scoped_dir7184_16899}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b633669e189d04440f8cb13726419be7
+*** Element info: {Using=link text, value=Log In}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_142.tc_REG_MUK_142(TC_REG_MUK_142.java:100)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_155</h1>
+<h2 id="m89">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_155:tc_REG_MUK_155</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Product=511423, Runmode=Y}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_145</h1>
+<h2 id="m90">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_145:tc_REG_MUK_145</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{PayPalUsername=t1_1359732862_per@javelingroup.com, PayPalPassword=359732825, Product=511423, Runmode=Y, GiftCard=6331134109019104265}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to redeem gift card</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at com.selenium.core.base.TestBase.reportFailure(TestBase.java:1051)
+<br/>at com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_145.tc_REG_MUK_145(TC_REG_MUK_145.java:151)
+<br/>26 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_265</h1>
+<h2 id="m91">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_265:tC_REG_MUK_265</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard2@mailinator.com, Password=Test_1234, Runmode=Y, FurnitureProduct=680091}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_138</h1>
+<h2 id="m92">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_138:tc_REG_MUK_145</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{PayPalUsername=t1_1359732862_per@javelingroup.com, Username=savedcard@mailinator.com, PayPalPassword=359732825, Password=Test_1234, Product=511423, Runmode=Y, GiftCard=6331134161023251830}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>TC_REG_MUK_150</h1>
+<h2 id="m93">com.selenium.mothercare.testcases.SuiteCheckout_Desktop.TC_REG_MUK_150:tc_REG_MUK_143</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{Username=savedcard@mailinator.com, Password=Test_1234, Runmode=Y, StandardProduct=511423}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

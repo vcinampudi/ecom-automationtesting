@@ -1,0 +1,60 @@
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*.stackdump
+
+
+# Project Specific Files #
+##########################
+
+# Class Files #
+*.class
+logs/
+.settings
+classes/
+.metadata
+.log
+*.tlog
+manifest.mf
+.gitignore~
+.bak
+*.jasper
+.project
+.settings/
+.springBeans/
+target/
+bin/
+.classpath
+.impl
+.idea
+*.iml
+
+# PropertiesFiles #
+###################
+
+#src/main/resources/log4j.properties#
+#src/main/resources/project.properties#
+#src/main/resources/Connection.properties#
+
+#src/main/config/local/log4j.properties#
+#src/main/config/local/project.properties#
+
+
+# Compressions #
+################
+
+*.zip
+*.zipx
+*.tar
+*.bz2
+*.7z
+*.gz
+/target/
+/bin/
+/builds/
+/reports/
+/test-output/
