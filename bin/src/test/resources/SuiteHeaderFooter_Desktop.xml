@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteHeaderFooter_Desktop">
+
+
+	<test name="TC_REG_MUK_012" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_012"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_013" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_013"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_108" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteHeaderFooter_Desktop.TC_REG_MUK_108"></class>
+		</classes>
+	</test>
+
+
+
+</suite>
+

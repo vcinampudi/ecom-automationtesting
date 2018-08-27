@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteDeliveryCharges_Desktop">
+	<test name="TC_REG_MUK_248" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_248"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_250" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_250"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_251" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_251"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_252" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_252"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_253" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_253"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_254" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_254"></class>
+		</classes>
+	</test>
+	<test name="TC_REG_MUK_255" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteDeliveryCharges_Desktop.TC_REG_MUK_255"></class>
+		</classes>
+	</test>
+</suite>
+

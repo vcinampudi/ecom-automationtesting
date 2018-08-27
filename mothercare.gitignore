@@ -12,10 +12,10 @@ Thumbs.db
 ##########################
 
 # Class Files #
-*.class
+
 logs/
 .settings
-classes/
+
 .metadata
 .log
 *.tlog

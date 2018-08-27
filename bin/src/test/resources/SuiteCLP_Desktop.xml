@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteCLP_Desktop">
+
+
+	<test name="TC_REG_MUK_063" allow-return-values="true">
+		<classes>
+			<class
+				name="com.selenium.mothercare.testcases.SuiteCLP_Desktop.TC_REG_MUK_063"></class>
+		</classes>
+	</test>
+
+</suite>
+

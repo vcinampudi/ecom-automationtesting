@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Mothercare">
+	<!-- <listeners> <listener class-name="Rough.Listener"></listener> </listeners> -->
+
+	<suite-files>
+		<suite-file path="./SuiteCheckout_Desktop.xml" />
+		<suite-file path="./SuiteCartPage_Desktop.xml" />
+		<suite-file path="./SuiteDeliveryCharges_Desktop.xml" />
+		<suite-file path="./SuiteEditBasket_Desktop.xml" />
+		<suite-file path="./SuiteCLP_Desktop.xml" />
+		<suite-file path="./SuiteDeliveryOption_Desktop.xml" />
+		<suite-file path="./SuitePDP_Desktop.xml" />
+		<suite-file path="./SuitePLP_Desktop.xml" />
+		<suite-file path="./SuiteHeaderFooter_Desktop.xml" />
+		<suite-file path="./SuiteHomePage_Desktop.xml" />
+		<suite-file path="./SuiteStoreFinder_Desktop.xml" />
+		<suite-file path="./SuiteMyAccount_Desktop.xml" />
+	</suite-files>
+</suite>
+
